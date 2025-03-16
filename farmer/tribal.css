@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+header>*{
+    display: inline-block;
+    width: 450px;
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.none{
+    width: 46%;
+}
+header{
+    padding: 5px 5%;
+    background-color: #A60400;
+    position: fixed;
+    width: 100%;
+}
+main{
+    background-color: #FF7673;
+    padding-top: 4%;
+    padding: 4% 10%;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    font-size: 20px;
+    background-color: #F35450;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%
+}
+.info>div{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+.description{
+    text-wrap: wrap;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F35450;
+    font-size: 20px;
+    text-indent: 30px;
+}
+.units{
+    padding: 1%;
+    border-radius: 20px;
+    background-color: #F35450;
+    font-size: 20px;
+    margin: 2%;
+}
+.units img{
+    padding-top: 30px;
+    display: inline-block;
+    border-radius: 1000px;
+}
+.abzac{
+    margin: 20px 0px;
+}
+main a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.facts{
+    padding: 1%;
+    border-radius: 20px;
+    background-color: #F35450;
+    font-size: 20px;
+    margin: 2%;
+    padding: 2%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
